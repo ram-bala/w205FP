@@ -1,0 +1,8 @@
+members_v2.csv:msno,city,bd,gender,registered_via,registration_init_time
+sample_submission_v2.csv:msno,is_churn
+train.csv:msno,is_churn
+train_v2.csv:msno,is_churn
+transactions.csv:msno,payment_method_id,payment_plan_days,plan_list_price,actual_amount_paid,is_auto_renew,transaction_date,membership_expire_date,is_cancel
+transactions_v2.csv:msno,payment_method_id,payment_plan_days,plan_list_price,actual_amount_paid,is_auto_renew,transaction_date,membership_expire_date,is_cancel
+user_logs.csv:msno,date,num_25,num_50,num_75,num_985,num_100,num_unq,total_secs
+user_logs_v2.csv:msno,date,num_25,num_50,num_75,num_985,num_100,num_unq,total_secs

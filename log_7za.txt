@@ -1,0 +1,173 @@
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 29032872 bytes (28 MiB)
+
+Extracting archive: /data/staging/FP/members_v2.csv.7z
+--
+Path = /data/staging/FP/members_v2.csv.7z
+Type = 7z
+Physical Size = 29032872
+Headers Size = 186
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       50588394
+Compressed: 29032872
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 30666957 bytes (30 MiB)
+
+Extracting archive: /data/staging/FP/sample_submission_v2.csv.7z
+--
+Path = /data/staging/FP/sample_submission_v2.csv.7z
+Type = 7z
+Physical Size = 30666957
+Headers Size = 202
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       42651151
+Compressed: 30666957
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 33563098 bytes (33 MiB)
+
+Extracting archive: /data/staging/FP/train.csv.7z
+--
+Path = /data/staging/FP/train.csv.7z
+Type = 7z
+Physical Size = 33563098
+Headers Size = 122
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       46667771
+Compressed: 33563098
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 32818991 bytes (32 MiB)
+
+Extracting archive: /data/staging/FP/train_v2.csv.7z
+--
+Path = /data/staging/FP/train_v2.csv.7z
+Type = 7z
+Physical Size = 32818991
+Headers Size = 178
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       45635134
+Compressed: 32818991
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 707508779 bytes (675 MiB)
+
+Extracting archive: /data/staging/FP/transactions.csv.7z
+--
+Path = /data/staging/FP/transactions.csv.7z
+Type = 7z
+Physical Size = 707508779
+Headers Size = 138
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       1729298376
+Compressed: 707508779
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 7136060375 bytes (6806 MiB)
+
+Extracting archive: /data/staging/FP/user_logs.csv.7z
+--
+Path = /data/staging/FP/user_logs.csv.7z
+Type = 7z
+Physical Size = 7136060375
+Headers Size = 130
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       30514081415
+Compressed: 7136060375
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 685951221 bytes (655 MiB)
+
+Extracting archive: /data/staging/FP/user_logs_v2.csv.7z
+--
+Path = /data/staging/FP/user_logs_v2.csv.7z
+Type = 7z
+Physical Size = 685951221
+Headers Size = 186
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       1431465728
+Compressed: 685951221
+
+7-Zip (a) [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=C,Utf16=off,HugeFiles=on,64 bits,4 CPUs Intel(R) Xeon(R) CPU E5-2665 0 @ 2.40GHz (206D7),ASM,AES-NI)
+
+Scanning the drive for archives:
+1 file, 48850410 bytes (47 MiB)
+
+Extracting archive: /data/staging/FP/transactions_v2.csv.7z
+--
+Path = /data/staging/FP/transactions_v2.csv.7z
+Type = 7z
+Physical Size = 48850410
+Headers Size = 194
+Method = LZMA2:24
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       115394513
+Compressed: 48850410

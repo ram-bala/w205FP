@@ -1,0 +1,8 @@
+795091 /data/staging/FP/members_v2.csv
+907472 /data/staging/FP/sample_submission_v2.csv
+992932 /data/staging/FP/train.csv
+970961 /data/staging/FP/train_v2.csv
+21547747 /data/staging/FP/transactions.csv
+1431010 /data/staging/FP/transactions_v2.csv
+392106544 /data/staging/FP/user_logs.csv
+18396363 /data/staging/FP/user_logs_v2.csv
