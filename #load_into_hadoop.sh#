@@ -8,25 +8,25 @@ echo "  HDFS Set up Completed "
 
 
 tput setaf 2
- echo "Load into Hadoop - members_v3.csv"
+ echo "Load into Hadoop - members_v2.csv"
 tput sgr0
  echo "  1.Decompressing zipped file"
-7za e -y "/data/staging/FP/members_v3.csv.7z" -o/data/staging/FP/>>log_7za.txt
-echo "  2.Creating file without header line for/data/staging/FP/members_v3.csv"
-tail -n +2 "/data/staging/FP/members_v3.csv" >/data/staging/FP/nh_members_v3.csv
-echo -n "members_v3.csv:">>log_all_headers.csv
-head -1 "/data/staging/FP/members_v3.csv" >>log_all_headers.csv
-wc -l "/data/staging/FP/members_v3.csv" >>log_audit_wc_local.txt
-echo "  3.Removing file to save space - /data/staging/FP/members_v3.csv"
-rm -f "/data/staging/FP/members_v3.csv"
-echo "  4.Make directory in hdfs for members_v3.csv"
+7za e -y "/data/staging/FP/members_v2.csv.7z" -o/data/staging/FP/>>log_7za.txt
+echo "  2.Creating file without header line for/data/staging/FP/members_v2.csv"
+tail -n +2 "/data/staging/FP/members_v2.csv" >/data/staging/FP/nh_members_v2.csv
+echo -n "members_v2.csv:">>log_all_headers.csv
+head -1 "/data/staging/FP/members_v2.csv" >>log_all_headers.csv
+wc -l "/data/staging/FP/members_v2.csv" >>log_audit_wc_local.txt
+echo "  3.Removing file to save space - /data/staging/FP/members_v2.csv"
+rm -f "/data/staging/FP/members_v2.csv"
+echo "  4.Make directory in hdfs for members_v2.csv"
 hdfs dfs -mkdir /user/w205/FP/members
 echo "  5.Putting file into hdfs..."
-hdfs dfs -put /data/staging/FP/nh_members_v3.csv /user/w205/FP/members/members_v3.csv
-echo "  6.Done putting file into hdfs for members_v3.csv"
-hdfs dfs -ls /user/w205/FP/members/members_v3.csv
-echo "  7.Removing file to save space - /data/staging/FP/nh_members_v3.csv"
-rm -f /data/staging/FP/nh_members_v3.csv
+hdfs dfs -put /data/staging/FP/nh_members_v2.csv /user/w205/FP/members/members_v2.csv
+echo "  6.Done putting file into hdfs for members_v2.csv"
+hdfs dfs -ls /user/w205/FP/members/members_v2.csv
+echo "  7.Removing file to save space - /data/staging/FP/nh_members_v2.csv"
+rm -f /data/staging/FP/nh_members_v2.csv
 
 
 tput setaf 2

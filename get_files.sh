@@ -5,6 +5,10 @@
 #change dir to staging area
 cd /data/staging/FP
 #get the remote file
+
+curl "https://kaggle2.blob.core.windows.net/competitions-data/kaggle/7163/members_v3.csv.7z?sv=2015-12-11&sr=b&sig=8"%"2FRWw"%"2BQ8Np6aT"%"2FikHZLJlz4LGB2jnpHRj1iiNaBowjc"%"3D&se=2017-12-02T19"%"3A25"%"3A27Z&sp=r" -H "Host: kaggle2.blob.core.windows.net" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Language: en-US,en;q=0.5" --compressed -H "Referer: https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data" -H "Connection: keep-alive" -H "Upgrade-Insecure-Requests: 1" -o members_v3.csv.7z
+
+
 curl "https://kaggle2.blob.core.windows.net/competitions-data/kaggle/7163/members_v2.csv.7z?sv=2015-12-11&sr=b&sig=vdetX8ilDx2RpAT8HXdEBWqoDyAF3thKnbgMGrBzLJ4"%"3D&se=2017-11-14T14"%"3A50"%"3A56Z&sp=r" -H "Host: kaggle2.blob.core.windows.net" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Language: en-US,en;q=0.5" --compressed -H "Referer: https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data" -H "Connection: keep-alive" -H "Upgrade-Insecure-Requests: 1" -o members_v2.csv.7z
 
 curl "https://kaggle2.blob.core.windows.net/competitions-data/kaggle/7163/sample_submission_v2.csv.7z?sv=2015-12-11&sr=b&sig=o"%"2BJOH4kYErld5B9UbmLzLofCZco"%"2BcthN"%"2FIHM09fLbE4"%"3D&se=2017-11-14T14"%"3A56"%"3A46Z&sp=r" -H "Host: kaggle2.blob.core.windows.net" -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0" -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" -H "Accept-Language: en-US,en;q=0.5" --compressed -H "Referer: https://www.kaggle.com/c/kkbox-churn-prediction-challenge/data" -H "Connection: keep-alive" -H "Upgrade-Insecure-Requests: 1" -o sample_submission_v2.csv.7z

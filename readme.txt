@@ -3,6 +3,9 @@ Objective:
 ---------
   Get zipped (7za) files from kaggle using curl
   unzip each file and load it into hdfs
+  note: issue following command if 7za is not installed
+        sudo yum install p7zip p7zip-plugins
+
 
 File Description (in typical Execution order):
 ----------------------------------------------

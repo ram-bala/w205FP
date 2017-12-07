@@ -1,0 +1,46 @@
+#HOW TO USE THE FILE
+#On commandline 
+#awk -f load_files.awk list_of_files.txt>load_files.sh
+# creates shell script that will do the following:
+#   Take a list of files (and new file names), 
+#   strip off first line from file and save the first 50,000 lines into a new file
+#   remove the unzipped file to save space.
+
+BEGIN {FS=";";
+	my_path = "/data/staging/FP/";
+	my_path_small = "/data/staging/FPSmall/";
+	hadoop_path = "/user/w205/FPSmall"
+	print "#This file automatically created by load_files.awk - DO NOT EDIT"
+	print "echo \"Setting Up HDFS \" ";	
+	print "echo \"  Removing HDFS directory and contents for FP \" ";
+	print "hdfs dfs -rm -r " hadoop_path;
+	print "echo \"  Making directory FP in HDFS to host files \"";
+	print "hdfs dfs -mkdir " hadoop_path;
+	print "echo \"  HDFS Set up Completed \"";
+	print "\n"
+}
+#command to strip off the first line - headerline and redirect to the output file
+{
+    print "tput setaf 2";
+    print " echo \"Load into Hadoop - " $1 "\"";
+    print "tput sgr0";
+    print " echo \"  1.Decompressing zipped file\"";
+    print "7za e -y \"" my_path $1 ".7z\" -o" my_path ">>log_7za_small.txt";
+    print "head -50000 \"" my_path $1 "\" >>" my_path_small $1;
+#command to delete the original file to save space
+    print "echo \"  3.Removing file to save space - " my_path $1 "\"";
+    print "rm -f \"" my_path $1 "\"";
+#command to create a directory in hdfs to house this file
+    print "echo \"  4.Make directory in hdfs for " $3 "\"";
+    print "hdfs dfs -mkdir " hadoop_path "/" $2;
+#command to put this file into hdfs
+    print "echo \"  5.Putting file into hdfs...\"";
+    print "hdfs dfs -put " my_path_small $3 " " hadoop_path "/" $2 "/" $3;
+    print "echo \"  6.Done putting file into hdfs for " $3 "\"";
+    print "hdfs dfs -ls " hadoop_path "/" $2 "/" $3;
+    print "echo \"  7.Removing file to save space - " my_path $3 "\"";
+    print "rm -f " my_path $3;
+    print "\n";
+}
+
+
